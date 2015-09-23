@@ -981,7 +981,7 @@ public class PokerHandCheck{
         }
 
         //declare variable by placing all possible matches for one pair
-        boolean unPair = (cardAssign==cardAssign1 || cardAssign==cardAssign2 || cardAssign==cardAssign3 || cardAssign==cardAssign4cardAssign1==cardAssign2 || cardAssign1==cardAssign3 || cardAssign1==cardAssign4 || cardAssign2==cardAssign3 || cardAssign2==cardAssign4 || cardAssign3==cardAssign4);
+        boolean unPair = (cardAssign==cardAssign1 || cardAssign==cardAssign2 || cardAssign==cardAssign3 || cardAssign==cardAssign4 || cardAssign1==cardAssign2 || cardAssign1==cardAssign3 || cardAssign1==cardAssign4 || cardAssign2==cardAssign3 || cardAssign2==cardAssign4 || cardAssign3==cardAssign4);
         
         //decalre variable by placing all possible matches for two pair
         boolean dosPair = ((cardAssign==cardAssign1 && cardAssign2==cardAssign3) || (cardAssign==cardAssign1 && cardAssign2==cardAssign4) || (cardAssign==cardAssign1 && cardAssign3==cardAssign4) || 
@@ -998,7 +998,7 @@ public class PokerHandCheck{
                             (cardAssign2==cardAssign3 && cardAssign2==cardAssign4));
         
         //declare varibale for no match
-        boolean nomatch = (cardAssign!=cardAssign1 || cardAssign!=cardAssign2 || cardAssign!=cardAssign3 || cardAssign!=cardAssign4 cardAssign1!=cardAssign2 || cardAssign1!=cardAssign3 || cardAssign1!=cardAssign4 || cardAssign2!=cardAssign3 || cardAssign2!=cardAssign4 || cardAssign3!=cardAssign4);
+        boolean nomatch = (cardAssign!=cardAssign1 || cardAssign!=cardAssign2 || cardAssign!=cardAssign3 || cardAssign!=cardAssign4 || cardAssign1!=cardAssign2 || cardAssign1!=cardAssign3 || cardAssign1!=cardAssign4 || cardAssign2!=cardAssign3 || cardAssign2!=cardAssign4 || cardAssign3!=cardAssign4);
         
         //print for 3 kind
         if (tresPair==true) {
